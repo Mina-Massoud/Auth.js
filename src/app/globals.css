@@ -31,3 +31,22 @@ body {
     text-wrap: balance;
   }
 }
+.text-gradient {
+  background: -webkit-linear-gradient(
+    50deg,
+    #4285f4 0,
+    #9b72cb 9%,
+    #d96570 20%,
+    #d96570 24%,
+    #9b72cb 35%,
+    #4285f4 44%
+  );
+  /* Add this property */
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.line-height-remove { 
+  line-height: 0.5;
+}
