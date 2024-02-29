@@ -12,7 +12,6 @@ export default async function Home() {
       <code className="max-w-[500px] text-[1.2rem] bg-gray-900 p-[1em] rounded-md sticky z-[555] top-[2em]">
         {session ? session.user.name : "No session"}
       </code>
-
       <SpotLight />
       <GithubLogin />
       <GoogleLogin />

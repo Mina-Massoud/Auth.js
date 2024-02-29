@@ -5,10 +5,10 @@ export default function SpotLight(className, fill) {
     <div className="min-h-[100vh] w-full flex-col dark:bg-black bg-white  dark:bg-dot-white/[0.2] bg-dot-black/[0.2] relative flex items-center justify-center">
       {/* Radial gradient for the container to give a faded look */}
       <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
-      <h1 className="text-[8rem] line-height-remove text-gradient font-bold relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500 py-8">
+      <h1 className="text-[3rem] md:text-[8rem] line-height-remove text-gradient font-bold relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500 py-8">
         Auth JS
       </h1>
-      <p className="text-whitetext-[0.8rem]">This is a simple application of next auth.js library </p>
+      <p className="text-white text-center text-[0.8rem] px-[0.5em]">This is a simple application of next auth.js library </p>
       <svg
         className={cn(
           "animate-spotlight pointer-events-none absolute z-[1]  h-[169%] w-[138%] lg:w-[84%] opacity-0",
